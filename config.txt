@@ -1,3 +1,0 @@
-port: 6767
-root_path: C:\Users\chbe9 chbe9\Desktop\http_server\responsive-website-restaurant-main
-index_file: index.html

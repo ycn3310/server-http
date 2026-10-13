@@ -2,7 +2,7 @@
 #include <winsock2.h>
 #include <iostream>
 
-#include "define.h"
+#include "../include/define.h"
 
 SOCKET accept_connection(SOCKET server_socket){
     SOCKET new_socket = accept(server_socket, NULL, NULL);

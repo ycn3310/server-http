@@ -1,8 +1,8 @@
 #include <string>
 #include <winsock2.h>
 
-#include "define.h"
-#include "metadata.h"
+#include "../include/define.h"
+#include "../include/metadata.h"
 
 void send_200(SOCKET new_socket, long fileSize, std::string content_type){
     std::string response =  

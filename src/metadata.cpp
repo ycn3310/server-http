@@ -6,7 +6,7 @@
 #include <iostream>
 #include <fstream>
 
-#include "define.h"
+#include "../include/define.h"
 
 const char* weekdays[] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 

@@ -11,13 +11,13 @@
 #include <sstream>
 
 
-#include "define.h"
-#include "send.h"
-#include "metadata.h"
-#include "receive.h"
-#include "requests.h"
-#include "init.h"
-#include "files.h"
+#include "../include/define.h"
+#include "../include/send.h"
+#include "../include/metadata.h"
+#include "../include/receive.h"
+#include "../include/requests.h"
+#include "../include/init.h"
+#include "../include/files.h"
 
 
 int running = 1;
@@ -43,7 +43,7 @@ int main(void){
     }
 
 
-    Config config = load_config("config.txt");
+    Config config = load_config("config/config.txt");
 
     std::cout << "PORT: "         << config.port 
               << "\nIndex file: " << config.index_file 

@@ -2,8 +2,8 @@
 #include <fstream>
 #include <ctime>
 
-#include "metadata.h"
-#include "define.h"
+#include "../include/metadata.h"
+#include "../include/define.h"
 
 
 void write_log(Request request, int num_bytes){
