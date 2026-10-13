@@ -85,7 +85,7 @@ index_file: index.html
 Open a terminal in the project root and run:
 
 ```powershell
-g++ -std=c++17 -Wall -Wextra -I include src/main.cpp src/init.cpp src/files.cpp src/metadata.cpp src/receive.cpp src/requests.cpp src/send.cpp -o server.exe -lws2_32
+g++ -std=c++17 -Wall -Wextra -I include src/*.cpp -o server.exe -lws2_32
 ```
 
 This command:
